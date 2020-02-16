@@ -23,6 +23,11 @@ export default new Router({
       path: '/scroller',
       name: 'scroller',
       component: () => import(/* webpackChunkName: "scroller" */ '../views/ScrollerPage')
+    },
+    {
+      path: '/metro',
+      name: 'metro',
+      component: () => import(/* webpackChunkName: "transport" */ '../views/transport/transport')
     }
   ]
 })
