@@ -1,22 +1,50 @@
 <template>
   <div class="home">
     <ul>
-      <li @click="openPage">上拉加载-下拉刷新</li>
+      <li class="menu" v-for="(data, index) in menus" :key="index" @click="goMenu(data)">
+        {{data.name}}
+        <span class="nav_icon"></span>
+      </li>
     </ul>
   </div>
 </template>
 
 <script>
-  // @ is an alias to /src
-  import HelloWorld from '@/components/HelloWorld.vue'
-
-  export default {
-    name: 'home',
-    components: {},
-    methods: {
-      openPage() {
-        this.$router.push('/scroller')
-      }
+export default {
+  name: 'Home',
+  data () {
+    return {
+      menus: [
+        { name: 'Loading', link: '/loading' }
+      ]
+    }
+  },
+  methods: {
+    goMenu (data) {
+      this.$router.push(data.link)
     }
   }
+}
 </script>
+
+<style lang="less" scoped>
+@import "~@/style/mixin";
+.home {
+  height: 100%;
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: left;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 28px;
+    .border-1px(1px, #ebedf0, bottom);
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+</style>

@@ -1,5 +1,21 @@
-@import "mixin";
+@import "~@/style/normalize.css";
+@import "~@/style/reset.css";
+@import "~@/style/mixin";
+
 html,body{
   height: 100%;
   width: 100%;
+}
+.nav_icon {
+  .cust_icon();
+  &::after {
+    transform: rotate(45deg);
+  }
+}
+
+.back_icon {
+  .cust_icon();
+  &::after {
+    transform: rotate(-135deg);
+  }
 }
