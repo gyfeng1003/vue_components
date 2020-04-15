@@ -16,6 +16,11 @@ export default new Router({
 			component: () => import(/* webpackChunkName: "loading" */ '../views/Loading')
 		},
 		{
+			path: '/ioswheel',
+			name: 'ioswheel',
+			component: () => import(/* webpackChunkName: "ioswheel" */ '../views/iosPanelSelect')
+		},
+		{
 			path: '/swiper',
 			name: 'swiper',
 			component: () => import(/* webpackChunkName: "swiper" */ '../views/SwiperPage')

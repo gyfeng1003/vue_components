@@ -11,19 +11,20 @@
 
 <script>
 export default {
-  name: 'Home',
-  data () {
-    return {
-      menus: [
-        { name: 'Loading', link: '/loading' }
-      ]
-    }
-  },
-  methods: {
-    goMenu (data) {
-      this.$router.push(data.link)
-    }
-  }
+	name: 'Home',
+	data () {
+		return {
+			menus: [
+				{ name: 'Loading', link: '/loading' },
+				{ name: 'ioswheel', link: '/ioswheel' }
+			]
+		}
+	},
+	methods: {
+		goMenu (data) {
+			this.$router.push(data.link)
+		}
+	}
 }
 </script>
 
