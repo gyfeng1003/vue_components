@@ -16,6 +16,16 @@ export default new Router({
 			component: () => import(/* webpackChunkName: "loading" */ '../views/Loading')
 		},
 		{
+			path: '/toast',
+			name: 'toast',
+			component: () => import(/* webpackChunkName: "toast" */ '../views/toastPage')
+		},
+		{
+			path: '/modalPage',
+			name: 'modalPage',
+			component: () => import(/* webpackChunkName: "modal" */ '../views/modalPage')
+		},
+		{
 			path: '/ioswheel',
 			name: 'ioswheel',
 			component: () => import(/* webpackChunkName: "ioswheel" */ '../views/iosPanelSelect')

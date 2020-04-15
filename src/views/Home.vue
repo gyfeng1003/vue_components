@@ -16,7 +16,9 @@ export default {
 		return {
 			menus: [
 				{ name: 'Loading', link: '/loading' },
-				{ name: 'ioswheel', link: '/ioswheel' }
+				{ name: 'Toast', link: '/toast' },
+				{ name: 'ioswheel', link: '/ioswheel' },
+				{ name: 'modalPage', link: '/modalPage' }
 			]
 		}
 	},
