@@ -6,6 +6,7 @@ module.exports = {
 	outputDir: 'dist',
 	lintOnSave: false,
 	css: {
+		extract: true,
 		loaderOptions: {
 			postcss: {
 				// 这是rem适配的配置  注意： remUnit在这里要根据lib-flexible的规则来配制，如果您的设计稿是750px的，用75就刚刚好。
@@ -22,11 +23,24 @@ module.exports = {
 			new SkeletonWebpackPlugin({
 				webpackConfig: {
 					entry: {
-						app: path.join(__dirname, './src/skeleton.js')
+						app: path.join(__dirname, './src/entry-skeleton.js')
 					}
 				},
 				minimize: true,
-				quiet: true
+				quiet: true,
+				router: {
+					mode: 'hash',
+					routes: [
+						{
+							path: '/',
+							skeletonId: 'skeleton1'
+						},
+						{
+							path: '/loading',
+							skeletonId: 'skeleton2'
+						}
+					]
+				}
 			})
 		]
 	}
