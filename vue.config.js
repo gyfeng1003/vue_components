@@ -1,3 +1,5 @@
+const SkeletonWebpackPlugin = require('vue-skeleton-webpack-plugin')
+const path = require('path')
 module.exports = {
 	publicPath: process.env.NODE_ENV === 'development' ? '/' : './',
 	productionSourceMap: false,
@@ -14,5 +16,18 @@ module.exports = {
 				]
 			}
 		}
+	},
+	configureWebpack: {
+		plugins: [
+			new SkeletonWebpackPlugin({
+				webpackConfig: {
+					entry: {
+						app: path.join(__dirname, './src/skeleton.js')
+					}
+				},
+				minimize: true,
+				quiet: true
+			})
+		]
 	}
 }
