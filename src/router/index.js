@@ -26,11 +26,6 @@ export default new Router({
 			component: () => import(/* webpackChunkName: "modal" */ '../views/modalPage')
 		},
 		{
-			path: '/ioswheel',
-			name: 'ioswheel',
-			component: () => import(/* webpackChunkName: "ioswheel" */ '../views/iosPanelSelect')
-		},
-		{
 			path: '/swiper',
 			name: 'swiper',
 			component: () => import(/* webpackChunkName: "swiper" */ '../views/SwiperPage')
