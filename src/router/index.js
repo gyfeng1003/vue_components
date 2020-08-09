@@ -29,6 +29,16 @@ export default new Router({
 			path: '/swiper',
 			name: 'swiper',
 			component: () => import(/* webpackChunkName: "swiper" */ '../views/SwiperPage')
+		},
+		{
+			path: '/circle-progress',
+			name: 'CircleProgress',
+			component: () => import(/* webpackChunkName: "circle-progress" */ '../views/CircleProgress')
+		},
+		{
+			path: '/histogram',
+			name: 'Histogram',
+			component: () => import(/* webpackChunkName: "swiper" */ '../views/Histogram')
 		}
 	]
 })

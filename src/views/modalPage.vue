@@ -1,7 +1,7 @@
 <template>
 <div class="main">
   <m-header title="showModal"></m-header>
-  <m-button type="primary" @click.native="showModal">showModal</m-button>
+  <m-button type="primary" @click.native="setGrade">setGrade</m-button>
 </div>
 </template>
 <script>

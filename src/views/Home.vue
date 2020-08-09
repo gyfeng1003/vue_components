@@ -17,7 +17,9 @@ export default {
 			menus: [
 				{ name: 'Loading', link: '/loading' },
 				{ name: 'Toast', link: '/toast' },
-				{ name: 'modalPage', link: '/modalPage' }
+				{ name: 'modalPage', link: '/modalPage' },
+				{ name: '环形进度条', link: '/circle-progress' },
+				{ name: '柱状图', link: '/histogram' }
 			]
 		}
 	},
