@@ -39,6 +39,11 @@ export default new Router({
 			path: '/histogram',
 			name: 'Histogram',
 			component: () => import(/* webpackChunkName: "swiper" */ '../views/Histogram')
+		},
+		{
+			path: '/audio-player',
+			name: 'AudioPlayer',
+			component: () => import(/* webpackChunkName: "audio-player" */ '../views/AudioPlayer')
 		}
 	]
 })

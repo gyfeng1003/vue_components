@@ -23,3 +23,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
 	window.mountApp()
 }
+
+const Vconsole = require('vconsole')
+const vConsole = new Vconsole()
+Vue.use(vConsole)

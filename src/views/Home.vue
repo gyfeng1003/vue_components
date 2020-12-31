@@ -19,7 +19,8 @@ export default {
 				{ name: 'Toast', link: '/toast' },
 				{ name: 'modalPage', link: '/modalPage' },
 				{ name: '环形进度条', link: '/circle-progress' },
-				{ name: '柱状图', link: '/histogram' }
+				{ name: '柱状图', link: '/histogram' },
+				{ name: '音频播放器', link: '/audio-player' }
 			]
 		}
 	},
