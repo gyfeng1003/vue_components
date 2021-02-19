@@ -20,7 +20,8 @@ export default {
 				{ name: 'modalPage', link: '/modalPage' },
 				{ name: '环形进度条', link: '/circle-progress' },
 				{ name: '柱状图', link: '/histogram' },
-				{ name: '音频播放器', link: '/audio-player' }
+				{ name: '音频播放器', link: '/audio-player' },
+				{ name: 'h5端js-sdk功能demo', link: '/jssdk-demo' }
 			]
 		}
 	},

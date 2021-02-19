@@ -44,6 +44,11 @@ export default new Router({
 			path: '/audio-player',
 			name: 'AudioPlayer',
 			component: () => import(/* webpackChunkName: "audio-player" */ '../views/AudioPlayer')
+		},
+		{
+			path: '/jssdk-demo',
+			name: 'JsSDKDemo',
+			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/JsSdkDemo')
 		}
 	]
 })

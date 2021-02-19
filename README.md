@@ -5,3 +5,5 @@ vue常用组件整理
 ## 2、Loading 加载
 ## 3、Toast 轻提示
 ## 4、Modal 对话框
+## 5、H5音频播放器组件
+## 6、h5端js-sdk功能demo
