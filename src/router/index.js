@@ -49,6 +49,11 @@ export default new Router({
 			path: '/jssdk-demo',
 			name: 'JsSDKDemo',
 			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/JsSdkDemo')
+		},
+		{
+			path: '/activity-template',
+			name: 'ActivityTemplate',
+			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/activity/ActivityTemplate.vue')
 		}
 	]
 })

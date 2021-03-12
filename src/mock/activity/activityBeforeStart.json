@@ -1,0 +1,21 @@
+{
+  "code": 100002,
+  "msg": "活动未开始",
+  "result": {
+    "id": null,
+    "actName": "测试页面",
+    "actCode": null,
+    "actBeginTime": 1615564800000,
+    "actEndTime": 1619193599000,
+    "isEnableBar": null,
+    "backgroundColor": null,
+    "actHeadImg": null,
+    "actRule": null,
+    "share": null,
+    "status": null,
+    "actStatus": "NOTSTARTED",
+    "elementTypes": null,
+    "barColor": null,
+    "selectedColor": null
+  }
+}
