@@ -7,10 +7,6 @@
 			<div id="header" ref="header" @click="toCompleteRoute">
 				<div id="header-title">
 					<div id="main-title">上海地铁总览图</div>
-					<div id="sub-title">
-						查看全图
-						<span class="iconfont iconicon_dt"></span>
-					</div>
 				</div>
 				<div id="header-img"></div>
 			</div>

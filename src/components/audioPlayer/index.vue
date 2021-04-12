@@ -1,6 +1,6 @@
 <template>
 	<div class="audio-box" @touchmove.prevent :class="{ IOS: _isiOS }">
-		<audio ref="audio" preload="metadata" :src="source" :autoplay="_isiOS" @canplay="canplayHandler" @timeupdate="timeUpdateHandler"
+		<audio ref="audio" preload="metadata" :src="source" @canplay="canplayHandler" @timeupdate="timeUpdateHandler"
     @ended="endedHandler">
 			<source :loop="cycle" type="audio/mp3">
 		</audio>

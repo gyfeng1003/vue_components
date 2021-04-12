@@ -54,6 +54,11 @@ export default new Router({
 			path: '/activity-template',
 			name: 'ActivityTemplate',
 			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/activity/ActivityTemplate.vue')
+		},
+		{
+			path: '/metro',
+			name: 'transport',
+			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/transport/transport.vue')  
 		}
 	]
 })

@@ -22,7 +22,8 @@ export default {
 				{ name: '柱状图', link: '/histogram' },
 				{ name: '音频播放器', link: '/audio-player' },
 				{ name: 'h5端js-sdk功能demo', link: '/jssdk-demo' },
-				{ name: '活动模板', link: '/activity-template' }
+				{ name: '活动模板', link: '/activity-template' },
+				{ name: '上海地铁线路', link: '/metro' }
 			]
 		}
 	},
