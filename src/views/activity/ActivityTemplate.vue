@@ -8,7 +8,6 @@
   </div>
 </template>
 <script>
-import mHeader from '@/components/mHeader'
 // import MainContent from './components/main-content'
 import ActivityStatus from './components/activity-status'
 import util from '../../utils'
@@ -25,7 +24,6 @@ export default {
 		}
 	},
 	components: {
-		mHeader,
 		// MainContent,
 		ActivityStatus
 	},

@@ -7,17 +7,18 @@
 </template>
 <script>
 export default {
-  props: {
-    title: {
-      type: String,
-      default: ''
-    }
-  },
-  methods: {
-    goBack () {
-      this.$router.go(-1)
-    }
-  }
+	name: 'mHeader',
+	props: {
+		title: {
+			type: String,
+			default: ''
+		}
+	},
+	methods: {
+		goBack () {
+			this.$router.go(-1)
+		}
+	}
 }
 </script>
 <style lang="less" scoped>

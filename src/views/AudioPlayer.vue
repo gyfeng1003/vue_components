@@ -5,7 +5,6 @@
   </div>  
 </template>
 <script>
-import mHeader from '@/components/mHeader'
 import AudioPlayer from '@/components/audioPlayer'
 export default {
 	data () {
@@ -14,7 +13,6 @@ export default {
 		}
 	},
 	components: {
-		mHeader,
 		AudioPlayer
 	},
 	mounted () {

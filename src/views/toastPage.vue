@@ -5,7 +5,6 @@
 </div>
 </template>
 <script>
-import mHeader from '@/components/mHeader'
 import mButton from '@/template/button'
 import toast from '@/components/toast'
 import Vue from 'vue'
@@ -16,7 +15,6 @@ export default {
 		}
 	},
 	components: {
-		mHeader,
 		mButton
 	},
 	methods: {

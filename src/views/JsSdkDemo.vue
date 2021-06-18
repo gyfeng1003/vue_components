@@ -9,7 +9,6 @@
   </div>
 </template>
 <script>
-import mHeader from '@/components/mHeader'
 import yjyJsSDK from 'yjy-js-sdk'
 export default {
 	data () {
@@ -18,7 +17,6 @@ export default {
 		}
 	},
 	components: {
-		mHeader
 	},
 	mounted () {
 		// 原生app header头的返回按钮事件

@@ -14,7 +14,6 @@
   </div>
 </template>
 <script>
-import mHeader from '@/components/mHeader'
 import mButton from '@/template/button'
 
 export default {
@@ -45,7 +44,6 @@ export default {
 		}
 	},
 	components: {
-		mHeader,
 		mButton
 	},
 	mounted () {

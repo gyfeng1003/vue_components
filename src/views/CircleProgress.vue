@@ -10,7 +10,6 @@
   </div>
 </template>
 <script>
-import mHeader from '@/components/mHeader'
 import mButton from '@/template/button'
 let vm = null
 /** canvas基础值 */
@@ -27,7 +26,6 @@ export default {
 		}
 	},
 	components: {
-		mHeader,
 		mButton
 	},
 	mounted () {

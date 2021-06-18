@@ -23,7 +23,9 @@ export default {
 				{ name: '音频播放器', link: '/audio-player' },
 				{ name: 'h5端js-sdk功能demo', link: '/jssdk-demo' },
 				{ name: '活动模板', link: '/activity-template' },
-				{ name: '上海地铁线路', link: '/metro' }
+				{ name: '上海地铁线路', link: '/metro' },
+				{ name: '支付密码组件', link: '/payment-page' },
+				{ name: '密码输入框-显示*号', link: '/pwdinput-page' }
 			]
 		}
 	},

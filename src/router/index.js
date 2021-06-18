@@ -53,12 +53,22 @@ export default new Router({
 		{
 			path: '/activity-template',
 			name: 'ActivityTemplate',
-			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/activity/ActivityTemplate.vue')
+			component: () => import(/* webpackChunkName: "ActivityTemplate" */ '../views/activity/ActivityTemplate.vue')
 		},
 		{
 			path: '/metro',
 			name: 'transport',
-			component: () => import(/* webpackChunkName: "jssdk-demo" */ '../views/transport/transport.vue')  
+			component: () => import(/* webpackChunkName: "transport" */ '../views/transport/transport.vue')  
+		},
+		{
+			path: '/payment-page',
+			name: 'PaymentPage',
+			component: () => import(/* webpackChunkName: "PaymentPage" */ '../views/paymentPage.vue')
+		},
+		{
+			path: '/pwdinput-page',
+			name: 'PaymentPage',
+			component: () => import(/* webpackChunkName: "PwdInputPage" */ '../views/PwdInputPage.vue')
 		}
 	]
 })
